@@ -1,0 +1,150 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+	box-sizing: border-box;
+  }
+  .body-about{
+	background: linear-gradient(to right, #649173, #dbd5a4);
+  }
+  .navbar img{
+	width: 200px;
+	position: absolute; left: 20px; top: 20px;
+  }
+  .navbar ul{
+	background: linear-gradient(to right, #dad299, #b0dab9);
+	display: flex;
+	justify-content: flex-end;
+	padding: 50px 0;
+  
+  }
+  .navbar ul li{
+	list-style: none;
+  }
+  .navbar ul li a{
+	color: #385241;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 25px;
+	font-size: 17px;
+  }
+  .navbar ul li a:hover{
+	color:  #f2709c;
+  }
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  max-width: 1200px;
+  width: 100%;
+  
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #273a2d;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+
+
+.body-portfolio {
+	background: #000;
+}
+.work-text h4 {
+	text-align: center;
+	font-size: 2.5rem;
+	color: #ccc;
+	font-family: 'Staatliches', cursive;
+}
+.work-text p {
+	text-align: center;
+	color: #ccc;
+	padding: 10px;
+	font-family: 'Lobster', cursive;
+	font-size: 1.3rem;
+}
+
+.row {
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+.column a {
+	display: block;
+	position: relative;
+}
+.column a:hover img{
+   transform: scale(0.95);
+}
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	transition: transform 500ms;
+}
+.column .title {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	justify-content: center;
+	align-items: flex-end;
+}
+.column .title h5 {
+	background: rgba(1, 151, 145, 0.5);
+	padding: 20px;
+	color: #273a2d;
+	border-radius: 5px;
+	width: 100%;
+}
+.column .title h5 span {
+	display: block;
+	padding-top: 5px;
+	color: #273a2d;
+}
+.column a:hover .title {
+	display: flex;
+	transform: scale(0.95);
+}
+
+
+
+.footer {
+	background: #111;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+  }
+  .footer-content p {
+	  margin-bottom: 10px;
+	  font-size: 14px;
+	}
+  

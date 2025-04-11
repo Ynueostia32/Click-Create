@@ -1,0 +1,150 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+	box-sizing: border-box;
+  }
+  .body-about{
+	background: linear-gradient(to right, #649173, #dbd5a4);
+  }
+  .navbar img{
+	width: 200px;
+	position: absolute; left: 20px; top: 20px;
+  }
+  .navbar ul{
+	background: linear-gradient(to right, #dad299, #b0dab9);
+	display: flex;
+	justify-content: flex-end;
+	padding: 50px 0;
+  
+  }
+  .navbar ul li{
+	list-style: none;
+  }
+  .navbar ul li a{
+	color: #385241;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 25px;
+	font-size: 17px;
+  }
+  .navbar ul li a:hover{
+	color:  #f2709c;
+  }
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  max-width: 1200px;
+  width: 100%;
+  
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #273a2d;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+.contact-text h4{
+	text-align: center;
+	font-size: 2.5rem;
+	color: white;
+
+    margin-top: 50px;
+}
+.contact-sec form {
+	max-width: 500px;
+	width: 90%;
+	margin: 30px auto;
+}
+.form-control {
+	margin: 15px 0;
+}
+.form-control label {
+	color: white;
+	display: block;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.form-control input {
+	display: block;
+	width: 100%;
+	background: white;
+	outline: none;
+	border: none;
+	padding: 10px;
+	font-size: 1.1rem;
+	border-radius: 5px;
+	color: #ccc;
+}
+.form-control textarea {
+	display: block;
+	width: 100%;
+	background: white;
+	outline: none;
+	border: none;
+	padding: 10px;
+	font-size: 1.1rem;
+	border-radius: 5px;
+	color: #ccc;
+	resize: none;
+}
+.btn-holder {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.btn-holder button {
+	display: inline-block;
+	border: 2px solid #019791;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 1.1rem;
+	cursor: pointer;
+	background: #019791;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background 500ms, color 500ms;
+	outline: none;
+}
+.btn-holder button:hover {
+	background: transparent;
+	color: #019791;
+}
+
+
+.footer {
+	background: #111;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+  }
+  .footer-content p {
+	  margin-bottom: 10px;
+	  font-size: 14px;
+	}
+  
